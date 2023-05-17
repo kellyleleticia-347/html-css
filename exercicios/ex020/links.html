@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+   body{
+    font-size: 2em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+   }
+   a {
+    color: rgb(216, 3, 3);
+    text-decoration: none;
+    font-weight: normal;
+   }
+   a:visited{
+    color: rgb(148, 5, 5);
+   }
+   a:hover{
+    color: rgb(77, 3, 3);
+    text-decoration: underline;
+   }
+   a:active{
+    color: chartreuse;
+   }
+   .especial{
+    background-color: rgba(161, 2, 2, 0.692);
+   }
+   .especial::before{
+    content:'☹';
+   }
+   .especial::after{
+    content: '☹';
+   }
+    </style>
+</head>
+<body >
+    <h1>Personalizando links</h1>
+    <ul>
+        
+        <li><a href="https://www.linkedin.com/in/kelly-leticia-a464b4269" target="_blank" class="especial">linkedin</a></li>
+        <li><a href="https://favicon.io/favicon-generator" target="_blank">favicon.io</a></li>
+        <li><a href="https://cursosescon.com.br/" target="_blank">escon</a></li>
+    </ul>
+</body>
+</html>

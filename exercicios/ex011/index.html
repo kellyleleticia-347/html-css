@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídia em HTML</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>tente abrir esse site em vários  dispositivos diferentes 
+    ou simplismente aumente e diminua o tamanho de seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagem-2/coração-300.webp" 
+        type="image/png">
+        <source media="(max-width:1050px )" srcset="imagem-2/coração-700.webp"
+        type="image/png">
+        <img src="imagem-2/coração-1000.webp" alt="imagem/flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="audio/Soulicious - Dyalla.mp3" controls ><p>infelizmente seu navegador não cosegue reproduzir áudio <a href="audio/Soulicious - Dyalla.mp3">clique aqui bara abaixar o áudio </a> </p></audio>
+   
+    <!--mp3 wav ogg-->
+    
+</body>
+</html>
