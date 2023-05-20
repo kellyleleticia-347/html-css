@@ -15,6 +15,7 @@
     table{
         width: 500px;
         border-collapse: collapse;
+        position: relative;
        
     }
     caption{
@@ -24,7 +25,12 @@
         background-color: rgb(189, 188, 188);
     }
     tbody > tr:nth-child(even){
-        background-color: rgba(95, 93, 93, 0.274);
+        background-color: rgba(95, 93, 93, 0.534);
+    }
+    thead > tr > th {
+        position: sticky;
+        top:0px;
+       background-color:rgb(32, 31, 31);
     }
     td, th{
         border: 1px solid black;
@@ -40,7 +46,7 @@
         text-align: left;
     }
     thead , tfoot{
-        background-color:rgba(0, 0, 0, 0.87);
+        background-color:rgb(32, 31, 31);
         color: whitesmoke;
     }
  
