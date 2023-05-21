@@ -9,18 +9,95 @@
         table{
             width: 600px;
             border-collapse: collapse;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
         th, td{
-            border: 1px solid black;
+            border: 2px solid black;
             padding: 10px;
         }
+        .E-H{
+            text-align: center;
+            font-weight: bolder;
+        }
+        th{
+            background-color: gray;
+            color: white;
+        }
+        .h{
+            background-color:gray;
+            color: white;
+        }
+        #num{
+            text-align: center;
+        }
+        
+        
     </style>
 </head>
 <body>
     <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
         <tr>
-            <th colspan="2">Área</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
         </tr>
+        </thead>
+       <tbody>
+        <tr>
+            <td rowspan="4" class="E-H">Exatas</td>
+            <td>Matematica</td>
+            <td id="num">0.0</td>
+            <td id="num">0.0</td>
+            <td id="num">0.0</td>
+        </tr>
+        <tr>
+            <td>Fisica</td>
+            <td id="num">0.0</td>
+            <td id="num">0.0</td>
+            <td id="num">0.0</td>
+        </tr>
+        <tr>
+            <td>Quimica</td>
+            <td id="num">0.0</td>
+            <td id="num">0.0</td>
+            <td id="num">0.0</td>
+        </tr>
+        <tr>
+            <td>Biologia</td>
+            <td id="num">0.0</td>
+            <td id="num">0.0</td>
+            <td id="num">0.0</td>
+        </tr>
+       <tr>
+        <th colspan="4" >Média de Exatas</th>
+        <td class="h" id="num">0.0</td>
+       </tr>
+       <tr>
+        <td rowspan="2" class="E-H">Humanas</td>
+        <td>Historia</td>
+        <td id="num">0.0</td>
+        <td id="num">0.0</td>
+        <td id="num">0.0</td>
+       </tr>
+       <tr>
+        <td id="num">Geografia</td>
+        <td id="num">0.0</td>
+        <td id="num">0.0</td>
+        <td id="num">0.0</td>
+       </tr>
+       <tr>
+        <th colspan="4">Média de Exatas</th>
+        <td  class="h" id="num">0.0</td>
+       </tr>
+       </tbody>
+       
+
     </table>
 </body>
 </html>
