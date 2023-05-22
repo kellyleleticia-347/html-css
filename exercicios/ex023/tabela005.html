@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 600px;
+            
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        caption{
+            padding: 10px;
+            font-weight: bolder;
+            background-color: rgb(15, 120, 180);
+        }
+        #Cnome{
+            background-color: rgb(168, 163, 163);
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col id="Cnome">
+            <col id="Csexo">
+            <col id="Cidade">
+            <col id="Cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profição</th>
+        </tr>
+        <tr>
+            <td>Kelly</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Front-End</td>
+        </tr>
+        <tr>
+            <td>Raphael</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Cozinheiro</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Mecanico</td>
+        </tr>
+        <tr>
+            <td>Vitoria</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Renata</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Dentista</td>
+        </tr>
+    </table>
+</body>
+</html>
