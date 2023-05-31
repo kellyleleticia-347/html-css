@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulárlio</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="form001.html">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="aqui seu nome" maxlength="30" minlength="5" size="50">
+        </p>
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" max="10" min="0" value="5" size="1" step="0.1">
+        </p>
+        <p>
+            <label for="iperiodo">Periodo letivo:</label>
+            <input type="month" name="periodo" id="iperiodo" value="2004-9">
+        </p>
+        <p>
+            <label for="idia">Dia das prova</label>
+            <input type="date" name="dia" id="idia">
+        </p>
+        <p>
+            <label for="ihora">Horário da prova</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <p><input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"></p>
+        
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
