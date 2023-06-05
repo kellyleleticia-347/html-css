@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <style>
+        *{
+            font-family: 'Regular brush';
+        }
+    </style>
+</head>
+<body>
+<h1>Exemplo de formulários</h1>
+<form action="cadastro.php" method="post">
+    <p>
+        <label for="iest">Estado:</label>
+        <select name="est" id="iest">
+            <option value="">--escolha--</option>
+            <optgroup label="Região Sudeste">
+                <option value="MG">Minas gerais</option>
+                <option value="RG">Rio de janeiro</option>
+                <option value="SP">São paulo</option>
+            </optgroup>
+            <optgroup label="Região Nordeste">
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio Grande do Norte</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="ADM">Adiministrador</option>
+            <option value="PROF">Professor</option>
+        </datalist>
+    </p>
+    <p>
+        <label for="imsg">Mensagem:</label>
+        <textarea name="msg" id="imsg" cols="30" rows="5" placeholder="escreva sua mensagem aqui !"></textarea>
+    </p>
+</form>
+</body>
+</html>
