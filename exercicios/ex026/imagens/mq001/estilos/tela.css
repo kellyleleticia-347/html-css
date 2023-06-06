@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* estilos para tela */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+header>h1{
+    text-align: center;
+}
+header{
+    background-color: darkgray;
+}
+menu li{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(52, 70, 70);
+    border-radius: 5px;
+    color: white;
+}
+article{
+    margin: auto;
+    display: block;
+    height: 600px;
+    width: 300px;
+    text-align: justify;
+}
+article h1{
+    background-color: darkgrey;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.4em;
+    border-radius: 5px;
+}
