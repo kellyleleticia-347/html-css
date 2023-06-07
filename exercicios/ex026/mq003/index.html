@@ -5,9 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Queries</title>
-    <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation:portrait)">
-    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation:landscape)">
+   <style>
+    /* estilos gerais */
+    *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    html,body{
+        background-color: #233eff;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100vh;
+        width: 100vw;
+    }
+    h1{
+        color: white;
+        text-shadow: 2px 2px 2px rgb(9, 9, 179);
+    }
+
+
+    /* paisagem(landscape) */
+    @media  screen and (orientation:landscape) {
+        body{
+        background-image:url(../imagens/cev-landscape.jpg) ;
+        background-position: left bottom;
+    }
+    }
+
+
+    /* retrato (portrait) */
+    @media screen and (orientation:portrait) {
+        body{
+        background-image: url(../imagens/cev-portrait.jpg);
+        background-position: center bottom;  
+    }
+    }
+
+    
+   </style>
 </head>
 <body>
     <h1>Mude a orientação do seu dispositivo</h1>
