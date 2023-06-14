@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'laisha' ;
+    src: url(../fons/Laisha.otf);
+}
+@font-face{
+    font-family: 'monomania';
+    src: url(../fons/MonomaniacOne-Regular.ttf);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+body{
+    background-color: rgb(255, 230, 230);
+}
+header{
+    
+    background-image: linear-gradient(to bottom, rgb(255, 123, 123), rgb(129, 62, 62));
+}
+
+
+li {
+    display: block;
+    text-align: center;
+    color: #fae4e4;
+    padding: 5px;
+    font-weight: bolder;
+    border-top:1px solid #ffcece ;
+
+    
+}
+
+a{
+    color: #fae4e4;
+    text-decoration: none;
+}
+li:hover{
+    color: #fae4e4;
+    text-decoration: underline;
+}
+
+main{
+   margin: auto;
+   width: 80vw;
+   
+}
+section{
+    margin: auto;
+    width: 80vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 2px solid rgb(224, 178, 178);
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+    
+h1, h2,h3{
+    text-align: center;
+    padding: 8px;
+   
+}
+
+h1{
+    color:white;
+    font-family: 'laisha';
+    padding: 30px;
+}
+h2,h3{
+    font-family: 'monomania';
+    color: rgb(129, 62, 62);
+}
+p{
+    line-height: 1.5em;
+    padding: 10px;
+    text-indent: 30px;
+}
+footer{
+    background-color: rgb(129, 62, 62);
+    color: white;
+    font-size: .7em;
+}
