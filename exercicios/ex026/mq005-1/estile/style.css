@@ -21,6 +21,9 @@ header{
     
     background-image: linear-gradient(to bottom, rgb(255, 123, 123), rgb(129, 62, 62));
 }
+menu{
+    display: none
+}
 
 
 li {
@@ -41,6 +44,17 @@ a{
 li:hover{
     color: #fae4e4;
     text-decoration: underline;
+}
+span#burguer{
+    background-color: #7e2b2b;
+    color: #fae4e4;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+#burguer:hover{
+    background-color: #a73333;
 }
 
 main{

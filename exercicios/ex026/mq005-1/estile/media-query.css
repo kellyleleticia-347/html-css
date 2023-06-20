@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    span#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    li {
+        display: inline-block;
+        border: 1px solid;
+        background-color: #7e3030;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    section{
+        max-width: 700px;
+    }
+}

@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estile/style.css">
+    <link rel="stylesheet" href="estile/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1 > Street Arts  (Arte Urbana)</h1>
-       <menu>
+        <span id="burguer" class="material-icons" onclick="clikMenu()">menu</span>
+       <menu id="itens">
         <ul>
             <a href="index.html"> 
                 <li>Home</li>
@@ -26,7 +29,7 @@
         </ul>
        </menu>
     </header>
-    <article>
+
         <section>
             <h3>Edigar Muller</h3>
             
@@ -44,5 +47,25 @@
         <footer>
             <h1 style="color: #fae4e4;">site criado por <a style="color: #fae4e4;" href="https://github.com/kellyleleticia-347">kelly Leticia</a></h1>
         </footer>
+        <script>
+            function mudouTamanho(){
+                if(window.innerWidth >= 768){
+                    itens.style.display='block'
+                } else{
+                    itens.style.display = 'none'
+                }
+                
+            }
+
+
+
+            function clikMenu(){
+                if (itens.style.display == 'block') {
+                    itens.style.display = 'none'
+                } else {
+                    itens.style.display = 'block'
+                }
+            }
+        </script>
 </body>
 </html>
